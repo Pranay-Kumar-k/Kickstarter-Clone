@@ -1,10 +1,11 @@
-import './App.css';
-import {StartProject} from "./Components/Pages/Start_A_Project"
+import React from "react"
+import StartAProject from "./Components/Pages/StartAProject"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <StartProject />
+    <div>
+      <StartAProject />
     </div>
   );
 }
