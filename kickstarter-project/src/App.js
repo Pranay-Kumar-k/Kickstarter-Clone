@@ -3,7 +3,7 @@ import React from "react"
 import { Header } from "./Components/Header";
 import Routes from "./Components/Routes";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Page1 } from "./Components/Pages/StartPage1";
+import { Page2 } from "./Components/Pages/StartPage2";
 
 require('react-dom');
 window.React2 = require('react');
@@ -15,7 +15,7 @@ export default function App() {
     <div className="App">
       {/* <Header />
       <Routes /> */}
-      <Page1 />
+      <Page2 />
     </div>
   );
 }
