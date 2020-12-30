@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { DataContext } from "../Context/DataContextProvider";
+import styles from "./ViewProject.module.css";
 class ViewProject extends Component {
   constructor(props) {
     super(props);
@@ -24,28 +25,56 @@ class ViewProject extends Component {
     return !project ? (
       <h3>No product Found</h3>
     ) : (
-      <div style={{ border: "1px solid grey" }}>
-        <h4> {project.title} </h4>
-        <h6> {project.summary} </h6>
-        <img style={{ height: "150px" }} src={project.avatar} alt="img" />
-        <div> {project.category} </div>
-        <div> {project.location} </div>
-        <div> {project.funded} </div>
-        <div> {project.backers} backers </div>
-        <div> {project.daysToGo} days to go </div>
-        <div>
-          <button>Back this project</button>{" "}
-        </div>
-        <div>
-          <button>Remind me</button>{" "}
-        </div>
-        <div> {project.story} </div>
-        <div>
-          {project.photos?.map((item) => (
-            <div>
-              <img style={{ height: "150px" }} src={item} alt="img" />
+      <div>
+        <div className={styles.box}>
+          <h2 className={styles.header}> {project.title} </h2>
+          <h4 className={styles.header}> {project.summary} </h4>
+          <img className={styles.avatar} src={project.avatar} alt="img" />
+          <div className={styles.right}>
+            <div className={styles.line}></div>
+            <div className={styles.gap}>
+              <div className={styles.funding}>{project.funded}</div>
             </div>
-          ))}{" "}
+            <div className={styles.gap}>
+              <div className={styles.backers}>{project.backers}</div> backers
+            </div>
+            <div className={styles.gap}>
+              <div className={styles.days}>{project.daysToGo}</div> days to go
+            </div>
+            <div className={styles.gap}>
+              <button className={styles.btn1}>Back this project</button>
+            </div>
+            <div className={styles.gap}>
+              <button className={styles.btn2}>Remind me</button>
+            </div>
+          </div>
+          <div className={styles.tag}>
+            <div>📷 {project.category} </div>
+            <div>📍 {project.location} </div>
+          </div>
+        </div>
+        <div className={styles.nav}>
+          {["Campaign", "FAQ", "Updates", "Comments", "Community"].map((e) => (
+            <div>{e} </div>
+          ))}
+        </div>
+        <div className={styles.storyBox}>
+          <div className={styles.story}> {project.story} </div>
+          <div className={styles.story}>
+            {project.photos?.map((item) => (
+              <div>
+                <img
+                  style={{
+                    height: "450px",
+                    marginTop: "30px",
+                    maxWidth: "800px",
+                  }}
+                  src={item}
+                  alt="img"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );
