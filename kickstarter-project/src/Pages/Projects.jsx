@@ -19,8 +19,8 @@ class Projects extends Component {
 
   viewProject = (id) => {
     const { history } = this.props;
-    console.log(this.props);
-    console.log(id);
+    // console.log(this.props);
+    console.log("id: ", id);
     const { url } = this.props.match;
     history.push(`${url}/${id}`);
   };
