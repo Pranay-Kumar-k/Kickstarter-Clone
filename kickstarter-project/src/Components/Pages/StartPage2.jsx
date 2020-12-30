@@ -12,7 +12,7 @@ class Page2 extends React.Component {
     render() {
         return(
             <div>
-               <Card className="text-center" border="light" style={{marginTop:"10%"}}>
+               <Card className="text-center" border="light" style={{marginTop:"10%",overflow:"unset"}}>
                     <Card.Body>
                         <Card.Title>Describe what you’ll be creating.</Card.Title>
                         <Card.Text className="text-muted">
