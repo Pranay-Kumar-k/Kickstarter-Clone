@@ -1,10 +1,10 @@
 * {
     font-size: 18px;
+    font-family:"Cooper Light", Georgia, Times, "Times New Roman", serif;
 }
 .heading {
     margin: 3% 15%;
     height: 200px;
-    font-family:"Cooper Light", Georgia, Times, "Times New Roman", serif;
 }
 .heading > h1 {
     font-size: 50px;
@@ -16,8 +16,40 @@ button {
     color: white;
     border: none;
     background:seagreen;
+    padding:10px;
 }
 button:hover{
     filter:contrast(150%)
 }
+.blue {
+    height:auto;
+    width: 100%;
+    background-color: #154360;
+    color: white;
+    margin-top: 100px;
+    padding: 50px;
+}
+.blue > div {
+    text-align: justify;
+    line-height: 1;
+    margin: 50px;
+    margin-left: 200px;
+    width: 800px;
+    font-size: 40px;
+}
+.middle {
+    font-size: 30px;
+    width: 900px;
+    margin: 5% 15%;
+    text-align: start;
+    color: black;
+}
+.video {
+    /* height: 400px; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+}
 
+.middle > button {
+    font-size: 18px;
+}
