@@ -12,7 +12,8 @@ class StartAProject extends React.Component {
     }
 
     handleStartProject = () => {
-        
+        const{history} = this.props
+        console.log(this.props)
     }
 
     render() {
@@ -235,19 +236,10 @@ class StartAProject extends React.Component {
 
                                 </div>
                             </div>
-                            <Row style={{background:"whitesmoke"}} className="mb-5 mt-5">
-                                        <Col>Arts</Col>
-                                        <Col>Comics & Illustration</Col>
-                                        <Col>Design & Tech</Col>
-                                        <Col>Film</Col>
-                                        <Col>Food & Craft</Col>
-                                        <Col>Games</Col>
-                                        <Col>Music</Col>
-                                        <Col>Publishing</Col>
-                                    </Row>
+                           
                 </div>
             )
         }
 }
 
-export default StartAProject
+export {StartAProject}

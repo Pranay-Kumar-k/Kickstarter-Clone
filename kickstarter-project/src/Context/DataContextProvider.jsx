@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import projects from "./db.json";
+
 const DataContext = React.createContext();
 
 class DataContextProvider extends Component {
