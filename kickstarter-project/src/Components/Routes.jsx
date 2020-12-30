@@ -4,6 +4,7 @@ import { Home } from "./../Pages/Home";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
 import { ViewProject } from "../Pages/ViewProject";
+import {StartAProject} from "./Pages/StartAProject";
 // import { Projects } from "../Pages/Projects";
 // import { Login } from "./RouteComponents/Login";
 // import { PrivateRoute } from "./PrivateRoute";
@@ -18,6 +19,8 @@ const Routes = () => {
           path="/home/:project_id"
           render={(props) => <ViewProject {...props} />}
         />
+        <Route path="/start" render={()=> <StartAProject />}/>
+
         {/* <Route path="/projects" component={Projects} /> */}
         {/* <Route path="/arts" render={() => <Arts />} />
         <Route path="/comics" render={() => <Comics />} />

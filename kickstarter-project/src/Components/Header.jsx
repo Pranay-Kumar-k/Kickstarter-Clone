@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -45,7 +45,7 @@ function Header() {
             to="/home"
           >
             <div>
-              <img src="https://imgur.com/crPcFmx.jpg" />
+              <img src="https://imgur.com/crPcFmx.jpg" alt="img"/>
             </div>
             <div>#BlackLivesMatter</div>
           </NavLink>
