@@ -1,0 +1,74 @@
+.header {
+  text-align: center;
+  font-weight: 400;
+}
+.box {
+  height: 550px;
+  background-color: whitesmoke;
+  /* width: 85%; */
+  /* border: 1px solid red; */
+  margin: auto;
+
+  /* float: left; */
+}
+.gap {
+  margin: 14px;
+}
+.avatar {
+  height: 400px;
+  margin-left: 80px;
+}
+.right {
+  display: flex;
+  float: right;
+  margin-right: 25%;
+  flex-direction: column;
+}
+.line {
+  width: 165%;
+  height: 5px;
+  background-color: seagreen;
+}
+.funding {
+  color: seagreen;
+  font-size: 30px;
+}
+.backers {
+  font-size: 30px;
+}
+.days {
+  font-size: 30px;
+}
+.btn1 {
+  color: white;
+  width: 180%;
+  height: 50px;
+  background-color: seagreen;
+}
+.btn2 {
+  width: 90%;
+  height: 50px;
+}
+.tag {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-left: 80px;
+}
+.nav {
+  height: 35px;
+  padding: 15px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+}
+.storyBox {
+  margin: auto;
+  width: 70%;
+  border: 1px solid black;
+  text-align: center;
+}
+.story {
+  padding: 20px;
+}
