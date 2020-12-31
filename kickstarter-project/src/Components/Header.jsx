@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -18,7 +18,7 @@ function Header() {
         <NavLink
           exact
           style={{ padding: 10, color: "black", textDecoration: "none" }}
-          activeStyle={{ fontWeight: "bold", color: "red" }}
+          activeStyle={{ fontWeight: "bold", color: "seagreen" }}
           to="/explore"
         >
           Explore
@@ -26,7 +26,7 @@ function Header() {
         <NavLink
           exact
           style={{ padding: 10, color: "black", textDecoration: "none" }}
-          activeStyle={{ fontWeight: "bold", color: "red" }}
+          activeStyle={{ fontWeight: "bold", color: "seagreen" }}
           to="/start"
         >
           Start A Project
@@ -45,7 +45,7 @@ function Header() {
             to="/home"
           >
             <div>
-              <img src="https://imgur.com/crPcFmx.jpg" />
+              <img src="https://imgur.com/crPcFmx.jpg" alt="img"/>
             </div>
             <div>#BlackLivesMatter</div>
           </NavLink>
@@ -65,7 +65,7 @@ function Header() {
             textDecoration: "none",
             marginRight: "50px",
           }}
-          activeStyle={{ fontWeight: "bold", color: "red" }}
+          activeStyle={{ fontWeight: "bold", color: "seagreen" }}
           to="/login"
         >
           Log in
