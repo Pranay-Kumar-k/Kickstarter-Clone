@@ -5,6 +5,7 @@ import Routes from "./Components/Routes";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Page2 } from "./Components/Pages/StartPage2";
 // import { Page3 } from "./Components/Pages/StartPage3";
+import { UserDashboard } from "./Components/Pages/UserDashboard"
 
 require('react-dom');
 window.React2 = require('react');
@@ -16,6 +17,7 @@ export default function App() {
       {/* <Header />
       <Routes /> */}
       {/* <Page3 /> */}
+      <UserDashboard />
     </div>
   );
 }
