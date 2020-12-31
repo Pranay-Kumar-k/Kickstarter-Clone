@@ -17,7 +17,8 @@ export default function App() {
       {/* <Header />
       <Routes /> */}
       {/* <Page3 /> */}
-      <DashboardNavbar />
+      <UserDashboard />
+
     </div>
   );
 }
