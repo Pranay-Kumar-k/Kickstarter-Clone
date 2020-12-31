@@ -1,23 +1,20 @@
-
-import React from "react"
-import StartAProject from "./Components/Pages/StartAProject"
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-require('react-dom');
-window.React2 = require('react');
-console.log(window.React1 === window.React2);
-
 import React from "react";
-// import "./styles.css";
 import { Header } from "./Components/Header";
 import Routes from "./Components/Routes";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import { Page2 } from "./Components/Pages/StartPage2";
+// import { Page3 } from "./Components/Pages/StartPage3";
+
+require("react-dom");
+window.React2 = require("react");
+console.log(window.React1 === window.React2);
 
 export default function App() {
   return (
     <div className="App">
       <Header />
       <Routes />
-      <StartAProject />
+      {/* <Page1 /> */}
     </div>
   );
 }
