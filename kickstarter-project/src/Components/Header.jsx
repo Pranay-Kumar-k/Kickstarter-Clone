@@ -18,7 +18,7 @@ function Header() {
         <NavLink
           exact
           style={{ padding: 10, color: "black", textDecoration: "none" }}
-          activeStyle={{ fontWeight: "bold", color: "red" }}
+          activeStyle={{ fontWeight: "bold", color: "seagreen" }}
           to="/explore"
         >
           Explore
@@ -26,7 +26,7 @@ function Header() {
         <NavLink
           exact
           style={{ padding: 10, color: "black", textDecoration: "none" }}
-          activeStyle={{ fontWeight: "bold", color: "red" }}
+          activeStyle={{ fontWeight: "bold", color: "seagreen" }}
           to="/start"
         >
           Start A Project
@@ -65,7 +65,7 @@ function Header() {
             textDecoration: "none",
             marginRight: "50px",
           }}
-          activeStyle={{ fontWeight: "bold", color: "red" }}
+          activeStyle={{ fontWeight: "bold", color: "seagreen" }}
           to="/login"
         >
           Log in
