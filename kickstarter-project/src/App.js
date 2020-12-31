@@ -5,7 +5,7 @@ import Routes from "./Components/Routes";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Page2 } from "./Components/Pages/StartPage2";
 // import { Page3 } from "./Components/Pages/StartPage3";
-import { UserDashboard } from "./Components/Pages/UserDashboard"
+import { DashboardNavbar } from "./Components/Pages/Dashboard_Navbar"
 
 require('react-dom');
 window.React2 = require('react');

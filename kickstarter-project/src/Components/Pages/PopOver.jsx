@@ -1,17 +1,47 @@
 import React from "react"
-import {Popover,OverlayTrigger, Container, Row, Col } from "react-bootstrap"
+import styles from "../Styles/PopOver.module.css"
+import {Popover,OverlayTrigger, Container, Row, Col, Button } from "react-bootstrap"
 
 const popover = (
-    <Popover id="popover-basic" >
-          <Container>
-              <Row >
-                <Col>YOUR ACCOUNT</Col>
-                <Col> CREATED PROJECTS</Col>
-              </Row>
-          </Container>
+    <Popover id="popover-basic" style={{maxWidth:"1000px"}}>
       <Popover.Content>
-        And here's some <strong>amazing</strong> content. It's very engaging.
-        right?
+          <Container className="cont">
+              <Row style={{marginBottom:"50px",marginTop:"30px",marginLeft:"5px"}}>
+                <Col style={{fontSize:"14px",fontWeight:"bold",width:"300px"}}>YOUR ACCOUNT</Col>
+                <Col style={{fontSize:"14px",fontWeight:"bold",width:"300px"}}> CREATED PROJECTS</Col>
+              </Row>
+              <Row>
+                <Col style={{marginLeft:"30px"}}>
+                  <Row>Saved projects</Row>
+                  <Row>Recommended for you</Row>
+                  <Row>Following</Row>
+                </Col>
+
+                <Col>
+                  <Row>
+                    <Col>
+                      <img src="https://ksr-ugc.imgix.net/missing_project_photo.png?ixlib=rb-2.1.0&crop=faces&w=48&h=27&fit=crop&v=&auto=format&frame=1&q=92&s=8dac54b2ccc16b91cebe1bbad9f81b29" alt="img" style={{marginRight:"20px"}}/>
+                      Art Project
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col></Col>
+                <Col>
+                  <Button variant="light" block>+ New</Button>
+                </Col>
+              </Row>
+              <Row>
+                <Col style={{marginLeft:"30px"}}>
+                  <Row>Profile</Row>
+                  <Row>Settings</Row>
+                  <Row>Messages</Row>
+                  <Row>Activity</Row>
+                </Col>
+              </Row>
+              <Row style={{marginTop:"100px",marginLeft:"20px",marginBottom:"30px"}}>Log out</Row>
+          </Container>
       </Popover.Content>
     </Popover>
   );
