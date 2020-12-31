@@ -13,9 +13,9 @@ console.log(window.React1 === window.React2);
 export default function App() {
   return (
     <div className="App">
-      {/* <Header />
-      <Routes /> */}
-      <Page1 />
+      <Header />
+      <Routes />
+      {/* <Page1 /> */}
     </div>
   );
 }
