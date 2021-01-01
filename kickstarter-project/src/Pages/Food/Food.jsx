@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import Recommended from "../Recommended";
 import { FoodCard } from "./FoodCard";
 
 class Food extends Component {
@@ -21,18 +22,34 @@ class Food extends Component {
   }
   render() {
     return (
-      <div>
-        <h3>Food&Craft</h3>
+      <div
+        style={{
+          display: "flex",
+        }}
+      >
         <div>
-          Join forces with the intrepid Foodmakers and festival creators
-          changing the way stories get told on screen.
+          <h3>Food&Craft</h3>
+          <div>
+            Join forces with the intrepid Foodmakers and festival creators
+            changing the way stories get told on screen.
+          </div>
+          <div>FEATURED PROJECT</div>
+          <br />
+          <div>
+            {this.state.data?.map((item) => (
+              <FoodCard key={item.id} item={item} />
+            ))}
+          </div>
         </div>
-        <div>FEATURED PROJECT</div>
-        <br />
-        <div>
-          {this.state.data?.map((item) => (
-            <FoodCard key={item.id} item={item} />
-          ))}
+        <div
+          style={{
+            // display: "flex",
+            maxWidth: "480px",
+            margin: "30px 0 0 0px",
+            // border: "1px solid black",
+          }}
+        >
+          <Recommended />
         </div>
       </div>
     );

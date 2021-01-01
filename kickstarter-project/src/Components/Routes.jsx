@@ -18,18 +18,20 @@ import { Food } from "../Pages/Food/Food";
 import { Games } from "../Pages/Games/Games";
 import { Music } from "../Pages/Music/Music";
 import { Publishing } from "../Pages/Publishing/Publishing";
+
 import { UserDashboard } from "./Pages/UserDashboard"
 
-// import { PrivateRoute } from "./PrivateRoute";
+import { LandingPage } from "../Pages/LandingPage";
 
 const Routes = () => {
   return (
     <div>
       <Navbar />
       <Switch>
-        {/* <Route path="/" exact render={(props) => <Home {...props} />} /> */}
+        {/* <Route path="/" exact render={(props) => <LandingPage {...props} />} /> */}
         <Route path="/home" exact render={(props) => <Home {...props} />} />
         <Route
+          exact
           path="/home/:project_id"
           render={(props) => <ViewProject {...props} />}
         />
@@ -39,11 +41,9 @@ const Routes = () => {
         <Route path="/3" exact render={()=> <Page3 />} />
         <Route path="/UserDashboard" render={() => <UserDashboard />} />
 
-        <Route path="/start" render={() => <StartAProject />} />
-
         {/* <Route path="/projects" component={Projects} /> */}
-        <Route path="/arts" render={() => <Arts />} />
-        <Route path="/comics" render={() => <Comics />} />
+        <Route exact path="/arts" render={() => <Arts />} />
+        <Route exact path="/comics" render={() => <Comics />} />
         <Route exact path="/design" render={() => <Design />} />
         <Route exact path="/film" render={() => <Film />} />
         <Route exact path="/food" render={() => <Food />} />

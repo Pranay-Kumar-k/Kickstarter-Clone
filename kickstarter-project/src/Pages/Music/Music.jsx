@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import Recommended from "../Recommended";
 import { MusicCard } from "./MusicCard";
 
 class Music extends Component {
@@ -19,18 +20,34 @@ class Music extends Component {
   }
   render() {
     return (
-      <div>
-        <h3>Music</h3>
+      <div
+        style={{
+          display: "flex",
+        }}
+      >
         <div>
-          Discover new albums, performances, and independent venues from
-          creators using Kickstarter to shape the future of sound.
+          <h3>Music</h3>
+          <div>
+            Discover new albums, performances, and independent venues from
+            creators using Kickstarter to shape the future of sound.
+          </div>
+          <div>FEATURED PROJECT</div>
+          <br />
+          <div>
+            {this.state.data?.map((item) => (
+              <MusicCard key={item.id} item={item} />
+            ))}
+          </div>
         </div>
-        <div>FEATURED PROJECT</div>
-        <br />
-        <div>
-          {this.state.data?.map((item) => (
-            <MusicCard key={item.id} item={item} />
-          ))}
+        <div
+          style={{
+            // display: "flex",
+            maxWidth: "480px",
+            margin: "30px 0 0 0px",
+            // border: "1px solid black",
+          }}
+        >
+          <Recommended />
         </div>
       </div>
     );
