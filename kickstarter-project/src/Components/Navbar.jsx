@@ -33,10 +33,6 @@ const links = [
   {
     to: "/publishing",
     title: "Publishing",
-  },
-  {
-    to:"/start",
-    title:""
   }
 ];
 

@@ -50,7 +50,7 @@ const apple = {
     fontSize: "20px",
 };
 
-export default class Login extends React.Component {
+class Login extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -97,3 +97,4 @@ export default class Login extends React.Component {
     }
 }
 Login.contextType = DataContext
+export {Login}
