@@ -1,4 +1,5 @@
 import React from "react"
+import { DashboardNavbar } from "./Dashboard_Navbar"
 
 class UserDashboard extends React.Component {
     constructor(props) {
@@ -7,6 +8,17 @@ class UserDashboard extends React.Component {
         this.state = {
 
         }
+    }
+
+    render(){
+        return(
+            <div>
+                <DashboardNavbar />
+                <div style={{marginTop:"100px"}}>
+                    
+                </div>
+            </div>
+        )
     }
 }
 
