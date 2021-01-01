@@ -200,4 +200,4 @@ class Login extends React.Component {
   }
 }
 Login.contextType = DataContext;
-export default Login;
+export {Login};

@@ -24,11 +24,7 @@ class Arts extends Component {
         style={{
           display: "flex",
           //  justifyContent: "space-around" ,
-<<<<<<< HEAD
           flexDirection: "row",margin:"5px 5%"
-=======
-          flexDirection: "row",
->>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
         }}
       >
         <div>
