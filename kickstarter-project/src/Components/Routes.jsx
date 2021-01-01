@@ -18,8 +18,11 @@ import { Food } from "../Pages/Food/Food";
 import { Games } from "../Pages/Games/Games";
 import { Music } from "../Pages/Music/Music";
 import { Publishing } from "../Pages/Publishing/Publishing";
+
+import { UserDashboard } from "./Pages/UserDashboard"
+
 import { LandingPage } from "../Pages/LandingPage";
-// import { PrivateRoute } from "./PrivateRoute";
+
 
 const Routes = () => {
   return (
@@ -33,13 +36,12 @@ const Routes = () => {
           path="/home/:project_id"
           render={(props) => <ViewProject {...props} />}
         />
-
         <Route path="/start" render={()=> <StartAProject/>}/>
         <Route path="/1" exact render={()=> <Page1 />} />
         <Route path="/2" exact render={()=> <Page2 />} />
         <Route path="/3" exact render={()=> <Page3 />} />
 
-        <Route path="/start" render={() => <StartAProject />} />
+        <Route path="/UserDashboard" render={() => <UserDashboard />} />
 
         {/* <Route path="/projects" component={Projects} /> */}
         <Route exact path="/arts" render={() => <Arts />} />
@@ -49,12 +51,14 @@ const Routes = () => {
         <Route exact path="/food" render={() => <Food />} />
         <Route exact path="/games" render={() => <Games />} />
         <Route exact path="/music" render={() => <Music />} />
-        <Route exact path="/publishing" render={() => <Publishing />} /> */}
+        <Route exact path="/publishing" render={() => <Publishing />} />
        
         <Route path="/login" render={(props) => <Login {...props} />} /> 
         <Route exact path="/publishing" render={() => <Publishing />} />
 
+
         <Route exact path="/login" render={(props) => <Login {...props} />} />
+
         <Route render={() => <h3>Error: 404. Page not found</h3>} />
       </Switch>
       <Navbar />
