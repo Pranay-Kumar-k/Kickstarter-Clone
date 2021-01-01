@@ -18,6 +18,7 @@ import { Food } from "../Pages/Food/Food";
 import { Games } from "../Pages/Games/Games";
 import { Music } from "../Pages/Music/Music";
 import { Publishing } from "../Pages/Publishing/Publishing";
+import { UserDashboard } from "./Pages/UserDashboard"
 
 // import { PrivateRoute } from "./PrivateRoute";
 
@@ -36,6 +37,7 @@ const Routes = () => {
         <Route path="/1" exact render={()=> <Page1 />} />
         <Route path="/2" exact render={()=> <Page2 />} />
         <Route path="/3" exact render={()=> <Page3 />} />
+        <Route path="/UserDashboard" render={() => <UserDashboard />} />
 
         <Route path="/start" render={() => <StartAProject />} />
 
@@ -47,7 +49,7 @@ const Routes = () => {
         <Route exact path="/food" render={() => <Food />} />
         <Route exact path="/games" render={() => <Games />} />
         <Route exact path="/music" render={() => <Music />} />
-        <Route exact path="/publishing" render={() => <Publishing />} /> */}
+        <Route exact path="/publishing" render={() => <Publishing />} />
        
         <Route path="/login" render={(props) => <Login {...props} />} /> 
         <Route exact path="/publishing" render={() => <Publishing />} />

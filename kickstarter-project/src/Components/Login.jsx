@@ -65,7 +65,6 @@ class Login extends React.Component {
         });
 
     };
-  }
   handleChange = (e) => {
     const { name, value } = e.target;
     this.setState({
@@ -196,7 +195,7 @@ class Login extends React.Component {
       </div>
     ) : (
       //   <Redirect to="/Pages/Dashboard" />
-      <Redirect to="/home" />
+      <Redirect to="/UserDashboard" />
     );
   }
 }
