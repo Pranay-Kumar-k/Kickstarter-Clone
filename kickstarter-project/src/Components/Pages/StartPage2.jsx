@@ -38,7 +38,7 @@ class Page2 extends React.Component {
                     <Card.Body>
                     <Card.Link style={{color:"black"}} ><ArrowLeft className="mr-2"/>Project Idea</Card.Link>
                     <Button variant="secondary" size="lg" style={{float:"right",marginRight:"26%"}} href="/3" disabled={!this.state.text}>
-                        Button
+                        Next:Location
                     </Button>
                     </Card.Body>
                 <footer className="text-muted" style={{font:"12px Arial",margin:"6% 30%"}}>
