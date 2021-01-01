@@ -15,6 +15,7 @@ import { Food } from "../Pages/Food/Food";
 import { Games } from "../Pages/Games/Games";
 import { Music } from "../Pages/Music/Music";
 import { Publishing } from "../Pages/Publishing/Publishing";
+import { LandingPage } from "../Pages/LandingPage";
 // import { PrivateRoute } from "./PrivateRoute";
 
 const Routes = () => {
@@ -22,17 +23,23 @@ const Routes = () => {
     <div>
       <Navbar />
       <Switch>
-        {/* <Route path="/" exact render={(props) => <Home {...props} />} /> */}
+        {/* <Route path="/" exact render={(props) => <LandingPage {...props} />} /> */}
         <Route path="/home" exact render={(props) => <Home {...props} />} />
         <Route
+          exact
           path="/home/:project_id"
+          render={(props) => <ViewProject {...props} />}
+        />
+        <Route
+          exact
+          path="/:project_id"
           render={(props) => <ViewProject {...props} />}
         />
         <Route path="/start" render={() => <StartAProject />} />
 
         {/* <Route path="/projects" component={Projects} /> */}
-        <Route path="/arts" render={() => <Arts />} />
-        <Route path="/comics" render={() => <Comics />} />
+        <Route exact path="/arts" render={() => <Arts />} />
+        <Route exact path="/comics" render={() => <Comics />} />
         <Route exact path="/design" render={() => <Design />} />
         <Route exact path="/film" render={() => <Film />} />
         <Route exact path="/food" render={() => <Food />} />
@@ -40,7 +47,7 @@ const Routes = () => {
         <Route exact path="/music" render={() => <Music />} />
         <Route exact path="/publishing" render={() => <Publishing />} />
 
-        <Route path="/login" render={(props) => <Login {...props} />} />
+        <Route exact path="/login" render={(props) => <Login {...props} />} />
         <Route render={() => <h3>Error: 404. Page not found</h3>} />
       </Switch>
       <Navbar />
