@@ -1,19 +1,12 @@
 import React from "react"
 import styles from "../Styles/Start_A_Project.module.css"
 import {Container,Row,Col,Image, ResponsiveEmbed} from "react-bootstrap"
+import { NavLink } from "react-router-dom"
+
 
 class StartAProject extends React.Component { 
     constructor(props) {
         super(props)
-
-        this.state = {
-
-        }
-    }
-
-    handleStartProject = () => {
-        const{history} = this.props
-        console.log(this.props)
     }
 
     render() {
@@ -21,7 +14,11 @@ class StartAProject extends React.Component {
                 <div>
                     <div className={styles.heading}>
                         <h1>Build your creative project <br/> to life.</h1>
-                        <button onClick={this.handleStartProject}>Start a project</button>
+                        
+                        <NavLink to="/1">
+                        <button>Start a project</button>
+                        </NavLink>
+                    
                     </div>
                         <Container>
                             <Row>

@@ -24,7 +24,11 @@ class Arts extends Component {
         style={{
           display: "flex",
           //  justifyContent: "space-around" ,
+<<<<<<< HEAD
           flexDirection: "row",margin:"5px 5%"
+=======
+          flexDirection: "row",
+>>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
         }}
       >
         <div>
@@ -57,19 +61,3 @@ class Arts extends Component {
 }
 Arts.contextType = DataContext;
 export { Arts };
-
-// export const Arts = (props) => {
-//   return (
-//     <DataContext.Consumer>
-//       {({ projects }) => {
-//         return (
-//           <Container>
-//             {projects()?.map((prod) => (
-//               <ProductItem key={prod.id} item={prod} {...props} />
-//             ))}
-//           </Container>
-//         );
-//       }}
-//     </DataContext.Consumer>
-//   );
-// };

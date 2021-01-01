@@ -65,7 +65,11 @@ class Music extends Component {
     return (
       <div
         style={{
+<<<<<<< HEAD
           display: "flex",margin:"5px 5%"
+=======
+          display: "flex",
+>>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
         }}
       >
         <div>
