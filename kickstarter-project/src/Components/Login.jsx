@@ -2,6 +2,7 @@ import React from "react";
 import { Redirect } from "react-router-dom";
 // import styles from "./Login.module.css"
 
+
 import { DataContext } from "../Context/DataContextProvider";
 
 const inputBox = {
@@ -49,12 +50,20 @@ const apple = {
   fontSize: "20px",
 };
 
-export class Login extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      email: "",
-      password: "",
+class Login extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            email: "",
+            password: ""
+        };
+    }
+    handleChange = (e) => {
+        const { name, value } = e.target;
+        this.setState({
+            [name]: value
+        });
+
     };
   }
   handleChange = (e) => {
@@ -191,4 +200,6 @@ export class Login extends React.Component {
     );
   }
 }
-Login.contextType = DataContext;
+Login.contextType = DataContext
+export {Login}
+
