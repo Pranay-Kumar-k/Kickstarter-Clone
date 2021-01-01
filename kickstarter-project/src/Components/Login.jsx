@@ -3,7 +3,7 @@ import { Redirect } from "react-router-dom";
 // import styles from "./Login.module.css"
 
 
-import { AuthContext } from "../../Context/AppContextProvider";
+import { DataContext } from "../Context/DataContextProvider";
 
 const inputBox = {
     margin: "10px 30px",
