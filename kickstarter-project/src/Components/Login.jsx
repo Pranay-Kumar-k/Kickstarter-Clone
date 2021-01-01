@@ -125,9 +125,8 @@ export class Login extends React.Component {
           <button style={btn} onClick={this.handleClick}>
             Log in
           </button>
-          {
-            error &&
-              alert("The email address and password you entered do not match.")
+          {error &&
+            alert("The email address and password you entered do not match.")
             // <h5 style={{ textAlign: "center" }}>Invalid credentials</h5>
           }
           {/* <input type="checkbox" value="Remember me" ckecked /> */}
