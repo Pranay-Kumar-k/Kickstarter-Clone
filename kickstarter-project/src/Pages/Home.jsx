@@ -14,28 +14,32 @@ class Home extends Component {
     // console.log(this.props);
     return (
       <div>
-        <div
-          style={{
-            margin: "30px 0 0 60px",
-            float: "left",
-            // border: "1px solid black",
-            maxWidth: "750px",
-          }}
-        >
-          <h6>FEATURED PROJECT</h6>
-          {projects?.map((item) => (
-            <Projects key={item.id} item={item} {...this.props} />
-          ))}
-        </div>
-        <div
-          style={{
-            display: "flex",
-            maxWidth: "480px",
-            margin: "30px 0 0 20px",
-            // border: "1px solid black",
-          }}
-        >
+        <div>
+          <div
+            style={{
+              margin: "30px 0 0 60px",
+              float: "left",
+              // border: "1px solid black",
+              maxWidth: "50%",
+            }}
+          >
+            <h6 style={{ marginLeft: "20px" }}>FEATURED PROJECT</h6>
+            <div>
+              {projects?.map((item) => (
+                <Projects key={item.id} item={item} {...this.props} />
+              ))}
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              maxWidth: "48%",
+              margin: "30px 0 0 20px",
+              // border: "1px solid black",
+            }}
+          >
           <Recommended />
+          </div>
         </div>
       </div>
     );

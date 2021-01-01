@@ -23,6 +23,7 @@ import { UserDashboard } from "./Pages/UserDashboard"
 
 import { LandingPage } from "../Pages/LandingPage";
 
+
 const Routes = () => {
   return (
     <div>
@@ -39,6 +40,7 @@ const Routes = () => {
         <Route path="/1" exact render={()=> <Page1 />} />
         <Route path="/2" exact render={()=> <Page2 />} />
         <Route path="/3" exact render={()=> <Page3 />} />
+
         <Route path="/UserDashboard" render={() => <UserDashboard />} />
 
         {/* <Route path="/projects" component={Projects} /> */}
@@ -53,6 +55,9 @@ const Routes = () => {
        
         <Route path="/login" render={(props) => <Login {...props} />} /> 
         <Route exact path="/publishing" render={() => <Publishing />} />
+
+
+        <Route exact path="/login" render={(props) => <Login {...props} />} />
 
         <Route render={() => <h3>Error: 404. Page not found</h3>} />
       </Switch>

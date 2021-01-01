@@ -1,8 +1,8 @@
+
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
 import Recommended from "../Recommended";
 import { ArtsCard } from "./ArtsCard";
-
 class Arts extends Component {
   constructor(props) {
     super(props);
@@ -24,7 +24,11 @@ class Arts extends Component {
         style={{
           display: "flex",
           //  justifyContent: "space-around" ,
+<<<<<<< HEAD
+          flexDirection: "row",margin:"5px 5%"
+=======
           flexDirection: "row",
+>>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
         }}
       >
         <div>
