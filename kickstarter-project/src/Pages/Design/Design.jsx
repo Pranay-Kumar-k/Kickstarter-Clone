@@ -67,19 +67,11 @@ class Design extends Component {
     return (
       <div
         style={{
-<<<<<<< HEAD
           display: "flex",margin:"5px 5%"
         }}
       >
         <div>
           <h3>Design & Tech</h3>
-=======
-          display: "flex",
-        }}
-      >
-        <div>
-          <h3>Design&Tech</h3>
->>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
           <div>
             From fine design to innovative tech, discover projects from creators
             working to build a more beautiful future.

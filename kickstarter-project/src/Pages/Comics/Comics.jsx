@@ -67,7 +67,6 @@ class Comics extends Component {
     return (
       <div
         style={{
-<<<<<<< HEAD
           display: "flex",margin:"5px 5%"
         }}
       >
@@ -76,16 +75,6 @@ class Comics extends Component {
           <div>
             Explore fantastical worlds and original characters from
             Kickstarter's community of comics creators and illustrators.
-=======
-          display: "flex",
-        }}
-      >
-        <div>
-          <h3>Comics&Illustration</h3>
-          <div>
-            Explore fantastical worlds and original characters from
-            Kickstarter’s community of comics creators and illustrators.
->>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
           </div>
           <div>FEATURED PROJECT</div>
           <br />
