@@ -65,7 +65,11 @@ class DataContextProvider extends Component {
         });
       });
   };
-
+  handleLogOut = () => {
+    this.setState({
+      isAuth: false,
+    });
+  };
   getProjects = () => {
     return this.state.projects;
   };
@@ -77,7 +81,12 @@ class DataContextProvider extends Component {
 
   render() {
     const { isAuth, isLoading, error, projects } = this.state;
-    const { authenticateUser, getProjects, getProjectById } = this;
+    const {
+      authenticateUser,
+      getProjects,
+      getProjectById,
+      handleLogOut,
+    } = this;
     const value = {
       authenticateUser,
       getProjects,
@@ -86,6 +95,7 @@ class DataContextProvider extends Component {
       isLoading,
       error,
       projects,
+      handleLogOut,
     };
     // console.log(this.state.projects);
     return (

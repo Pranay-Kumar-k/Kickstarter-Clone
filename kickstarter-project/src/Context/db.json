@@ -1,30 +1,14 @@
 [
   {
     "id": "1",
-    "title": "DIVEROID |Turn your smartphone into an All-in-one Dive gear",
-    "summary": "Turn your smartphone into an affordable all-in-one Dive computer, Underwater camera, and Photo-synced logbook with DIVEROID!",
-    "avatar": "https://ksr-ugc.imgix.net/assets/031/591/113/99d1a0b4a73964190654e96643c78239_original.gif?ixlib=rb-2.1.0&w=680&fit=max&v=1606721480&auto=format&gif-q=50&q=92&s=07a30b69750a1edc81e348851b5c2ce8",
-    "category": "Design&Tech",
-    "location": "Irvine, CA",
-    "funded": "US$ 87,658",
-    "backers": 188,
-    "daysToGo": 30,
-    "photos": [
-      "https://ksr-ugc.imgix.net/assets/031/736/925/1739f74b35c4239147c1372ea61888fc_original.png?ixlib=rb-2.1.0&w=680&fit=max&v=1607936046&auto=format&frame=1&lossless=true&s=4cc0f4f1ff17ca2bb7adb25a06607504.jpg",
-      "https://ksr-ugc.imgix.net/assets/031/746/813/0e870db0c4cac249bf1b5eac4fb2b908_original.jpeg?ixlib=rb-2.1.0&w=680&fit=max&v=1608008521&auto=format&frame=1&q=92&s=00b23d839d3ee29fb70a220f6e6ed859.jpg"
-    ],
-    "story": "Buying a diving computer, compass, and camera separately for your dive can get pricey over time and not to mention they are very bulky and can weigh you down while diving. At DIVEROID 2.0, we thought of bringing the convenience of having a smartphone always on hand, with the technology of monitoring your dive. Our product includes a dive computer, compass, and logbook all in the palm of your hand.",
-    "by": "DIVEROID"
-  },
-  {
-    "id": "2",
     "title": "Bird Buddy: A Smart Bird Feeder",
     "summary": "Bird Buddy notifies you of feathered visitors, captures their photos and organizes them in a beautiful collection!",
     "avatar": "https://ksr-ugc.imgix.net/assets/031/459/549/841e8660abef5849909a6a5d4bd9ba7d_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1605710642&auto=format&frame=1&q=92&s=93d40e1af4919d0fababc520d8d06e04",
 
     "category": "Design&Tech",
     "location": "Ljubljana, Slovenia",
-    "funded": "$3,039,834",
+    "funded": "3039834",
+    "pledged": "5039834",
     "backers": 14314,
     "daysToGo": 16,
     "photos": [
@@ -39,6 +23,24 @@
     "by": "Bird Buddy"
   },
   {
+    "id": "2",
+    "title": "DIVEROID |Turn your smartphone into an All-in-one Dive gear",
+    "summary": "Turn your smartphone into an affordable all-in-one Dive computer, Underwater camera, and Photo-synced logbook with DIVEROID!",
+    "avatar": "https://ksr-ugc.imgix.net/assets/031/591/113/99d1a0b4a73964190654e96643c78239_original.gif?ixlib=rb-2.1.0&w=680&fit=max&v=1606721480&auto=format&gif-q=50&q=92&s=07a30b69750a1edc81e348851b5c2ce8",
+    "category": "Design&Tech",
+    "location": "Irvine, CA",
+    "funded": "87658",
+    "pledged": "87658",
+    "backers": 188,
+    "daysToGo": 30,
+    "photos": [
+      "https://ksr-ugc.imgix.net/assets/031/736/925/1739f74b35c4239147c1372ea61888fc_original.png?ixlib=rb-2.1.0&w=680&fit=max&v=1607936046&auto=format&frame=1&lossless=true&s=4cc0f4f1ff17ca2bb7adb25a06607504.jpg",
+      "https://ksr-ugc.imgix.net/assets/031/746/813/0e870db0c4cac249bf1b5eac4fb2b908_original.jpeg?ixlib=rb-2.1.0&w=680&fit=max&v=1608008521&auto=format&frame=1&q=92&s=00b23d839d3ee29fb70a220f6e6ed859.jpg"
+    ],
+    "story": "Buying a diving computer, compass, and camera separately for your dive can get pricey over time and not to mention they are very bulky and can weigh you down while diving. At DIVEROID 2.0, we thought of bringing the convenience of having a smartphone always on hand, with the technology of monitoring your dive. Our product includes a dive computer, compass, and logbook all in the palm of your hand.",
+    "by": "DIVEROID"
+  },
+  {
     "id": "3",
     "title": "reFlow | Reusable Coffee Filter and Tea Bag",
     "summary": "One step closer to sustainable life",
@@ -46,7 +48,8 @@
 
     "category": "Food&Craft",
     "location": "Ljubljana, Slovenia",
-    "funded": "$2,296",
+    "funded": "2296",
+    "pledged": "11296",
     "backers": 32,
     "daysToGo": 18,
     "photos": [
@@ -66,7 +69,8 @@
 
     "category": "Arts",
     "location": "New York, NY",
-    "funded": "US$ 9,546",
+    "funded": "9546",
+    "pledged": "19546",
     "backers": 166,
     "daysToGo": 16,
     "photos": [
@@ -86,7 +90,8 @@
 
     "category": "Arts",
     "location": "Madrid, Spain",
-    "funded": "$19,194",
+    "funded": "19194",
+    "pledged": "39194",
     "backers": 209,
     "daysToGo": 15,
     "photos": [
@@ -106,7 +111,8 @@
 
     "category": "Comics&Illustration",
     "location": "Chicago, IL",
-    "funded": "US$ 48,171",
+    "funded": "48171",
+    "pledged": "148171",
     "backers": 777,
     "daysToGo": 8,
     "photos": [
@@ -127,7 +133,8 @@
 
     "category": "Comics&Illustration",
     "location": "Madrid, Spain",
-    "funded": "$24,335",
+    "funded": "24335",
+    "pledged": "74335",
     "backers": 259,
     "daysToGo": 48,
     "photos": [
@@ -147,7 +154,8 @@
 
     "category": "Film",
     "location": "Slough, UK",
-    "funded": "$23,338",
+    "funded": "23338",
+    "pledged": "23438",
     "backers": 115,
     "daysToGo": 12,
     "photos": [
@@ -164,7 +172,8 @@
     "avatar": "https://ksr-ugc.imgix.net/assets/031/811/429/56b8c1a46f54b9c7641b9bad31b7e30f_original.gif?ixlib=rb-2.1.0&w=680&fit=max&v=1608647988&auto=format&gif-q=50&q=92&s=4db95c757f05c4a19513041f78f3c5c6",
     "category": "Games",
     "location": "Los Angeles, CA",
-    "funded": "US$ 668,698",
+    "funded": "668698",
+    "pledged": "1668698",
     "backers": "11,575",
     "daysToGo": 30,
     "photos": [
@@ -184,7 +193,8 @@
     "avatar": "https://ksr-ugc.imgix.net/assets/031/852/638/e6805541f2f4d709a78ef525fc337457_original.gif?ixlib=rb-2.1.0&w=680&fit=max&v=1609176304&auto=format&gif-q=50&q=92&s=74ea6232a84e6f21acbb26b359eeea07",
     "category": "Games",
     "location": "Tokyo, Japan",
-    "funded": "$9,784",
+    "funded": "9784",
+    "pledged": "91784",
     "backers": 151,
     "daysToGo": 34,
     "photos": [
@@ -203,7 +213,8 @@
     "avatar": "https://imgur.com/wtqgFkd.jpg",
     "category": "Music",
     "location": "Ljubljana, Slovenia",
-    "funded": "$7,707",
+    "funded": "7707",
+    "pledged": "17707",
     "backers": 150,
     "daysToGo": 3,
     "photos": [],
@@ -218,7 +229,8 @@
 
     "category": "Music",
     "location": "Atlanta, GA",
-    "funded": "US$ 1,353",
+    "funded": "1353",
+    "pledged": "11353",
     "backers": 14,
     "daysToGo": 6,
     "photos": [
@@ -234,7 +246,8 @@
     "avatar": "https://imgur.com/1sancgB.jpg",
     "category": "Publishing",
     "location": "Simi Valley, CA",
-    "funded": "US$ 10,717",
+    "funded": "10717",
+    "pledged": "101717",
     "backers": "306",
     "daysToGo": 16,
     "photos": [
@@ -253,7 +266,8 @@
     "avatar": "https://ksr-ugc.imgix.net/assets/031/822/167/537ea002d681ab9841a82acddf3705a2_original.gif?ixlib=rb-2.1.0&w=680&fit=max&v=1608750368&auto=format&gif-q=50&q=92&s=fb8d798e0e5871a04699ad855a632d51",
     "category": "Publishing",
     "location": "Los Angeles, CA",
-    "funded": "US$ 1,275,587",
+    "funded": "1275587",
+    "pledged": "4275587",
     "backers": "11,961",
     "daysToGo": 6,
     "photos": [
@@ -265,5 +279,33 @@
     ],
     "story": "Have you ever imagined visiting the past with full knowledge of modern information and technology? If you told people from the Middle Ages or Ancient Egypt about a telephone, a car, or electricity, they would take you for a deity or a superhero. But do you actually know how these things work?",
     "by": "Timur"
+  },
+  {
+    "countries":["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla",
+      "Antigua &amp; Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan",
+      "Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda",
+      "Bhutan","Bolivia","Bosnia &amp; Herzegovina","Botswana","Brazil","British Virgin Islands",
+      "Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Cape Verde","Cayman Islands",
+      "Chad","Chile","China","Colombia","Congo","Cook Islands","Costa Rica","Cote D Ivoire","Croatia",
+      "Cruise Ship","Cuba","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic",
+      "Ecuador","Egypt","El Salvador","Equatorial Guinea","Estonia","Ethiopia","Falkland Islands","Faroe Islands",
+      "Fiji","Finland","France","French Polynesia","French West Indies","Gabon","Gambia","Georgia","Germany",
+      "Ghana","Gibraltar","Greece","Greenland","Grenada","Guam","Guatemala","Guernsey","Guinea",
+      "Guinea Bissau","Guyana","Haiti","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia",
+      "Iran","Iraq","Ireland","Isle of Man","Israel","Italy","Jamaica","Japan","Jersey","Jordan",
+      "Kazakhstan","Kenya","Kuwait","Kyrgyz Republic","Laos","Latvia","Lebanon","Lesotho","Liberia",
+      "Libya","Liechtenstein","Lithuania","Luxembourg","Macau","Macedonia","Madagascar","Malawi","Malaysia",
+      "Maldives","Mali","Malta","Mauritania","Mauritius","Mexico","Moldova","Monaco","Mongolia","Montenegro",
+      "Montserrat","Morocco","Mozambique","Namibia","Nepal","Netherlands","Netherlands Antilles","New Caledonia",
+      "New Zealand","Nicaragua","Niger","Nigeria","Norway","Oman","Pakistan","Palestine","Panama","Papua New Guinea",
+      "Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Reunion","Romania",
+      "Russia","Rwanda","Saint Pierre &amp; Miquelon","Samoa","San Marino","Satellite","Saudi Arabia",
+      "Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","South Africa",
+      "South Korea","Spain","Sri Lanka","St Kitts &amp; Nevis","St Lucia","St Vincent","St. Lucia","Sudan",
+      "Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand",
+      "Timor L'Este","Togo","Tonga","Trinidad &amp; Tobago","Tunisia","Turkey","Turkmenistan","Turks &amp; Caicos",
+      "Uganda","Ukraine","United Arab Emirates","United Kingdom","Uruguay","Uzbekistan","Venezuela","Vietnam",
+      "Virgin Islands (US)","Yemen","Zambia","Zimbabwe"]
   }
+  
 ]

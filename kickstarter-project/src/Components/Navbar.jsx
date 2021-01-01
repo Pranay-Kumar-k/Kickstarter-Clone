@@ -33,10 +33,6 @@ const links = [
   {
     to: "/publishing",
     title: "Publishing",
-  },
-  {
-    to:"/start",
-    title:""
   }
 ];
 
@@ -58,7 +54,7 @@ function Navbar() {
           <NavLink
             exact
             style={{ padding: 20, color: "grey", textDecoration: "none" }}
-            activeStyle={{ fontWeight: "bold", color: "red" }}
+            activeStyle={{ fontWeight: "bold", color: "seagreen" }}
             key={link.to}
             to={link.to}
           >

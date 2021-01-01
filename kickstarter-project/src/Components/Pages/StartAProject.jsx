@@ -1,19 +1,12 @@
 import React from "react"
 import styles from "../Styles/Start_A_Project.module.css"
 import {Container,Row,Col,Image, ResponsiveEmbed} from "react-bootstrap"
+import { NavLink } from "react-router-dom"
+
 
 class StartAProject extends React.Component { 
     constructor(props) {
         super(props)
-
-        this.state = {
-
-        }
-    }
-
-    handleStartProject = () => {
-        const{history} = this.props
-        console.log(this.props)
     }
 
     render() {
@@ -21,7 +14,11 @@ class StartAProject extends React.Component {
                 <div>
                     <div className={styles.heading}>
                         <h1>Build your creative project <br/> to life.</h1>
-                        <button onClick={this.handleStartProject}>Start a project</button>
+                        
+                        <NavLink to="/1">
+                        <button className={styles.btn}>Start a project</button>
+                        </NavLink>
+                    
                     </div>
                         <Container>
                             <Row>
@@ -188,7 +185,7 @@ class StartAProject extends React.Component {
                                         <div style={{border:"1px solid black",padding:15}}>
                                             <h2>Interested?</h2>
                                             <p>Click start and get sketching. See how it looks. Then share it with your friends!</p>
-                                            <button onClick={this.handleStartProject}>Start a project</button>
+                                            <button className = {styles.btn} onClick={this.handleStartProject}>Start a project</button>
                                             <p>We're here for you! Our Community Managers know all about running projects in each of our categories. Drop us a line about your project idea: art@kickstarter.com. Got questions about something else? Visit our Help center.</p>
                                         </div>
                                     </Col>
@@ -232,7 +229,7 @@ class StartAProject extends React.Component {
                                     “A way for every creative person to control their destiny.”
                                     </h1>
                                     <p>— Brian Fargo, successful Kickstarter project creator</p>
-                                    <button onClick={this.handleStartProject}>Start a project</button>
+                                    <button onClick={this.handleStartProject} className={styles.btn}>Start a project</button>
 
                                 </div>
                             </div>
