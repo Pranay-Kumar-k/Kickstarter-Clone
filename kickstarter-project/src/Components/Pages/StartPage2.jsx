@@ -1,15 +1,26 @@
 import React from "react"
 import { Card,Dropdown,Button,footer,Form,Nav } from "react-bootstrap"
+import { ArrowLeft } from "react-bootstrap-icons"
 
 
 
 class Page2 extends React.Component {
     constructor(props) {
         super(props)
+
+        this.state = {
+            text:""
+        }
     }
 
+    handleChange = (e) => {
+        this.setState({
+            text:e.target.value
+        })
+    }
 
     render() {
+        console.log(this.state.text);
         return(
             <div>
                <Card className="text-center" border="light" style={{marginTop:"10%",overflow:"unset"}}>
@@ -20,13 +31,13 @@ class Page2 extends React.Component {
                         </Card.Text>
                        <Form>
                        <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Control as="textarea" rows={3} style={{width:"650px",margin:"1% 25%"}} placeholder="A documentary about history of shoes..."/>
+                            <Form.Control onChange={this.handleChange} value={this.state.text} as="textarea" rows={3} style={{width:"650px",margin:"1% 25%"}} placeholder="A documentary about history of shoes..."/>
                         </Form.Group>
                        </Form>
                     </Card.Body>
                     <Card.Body>
-                    <Card.Link href="#" variant="dark">{`<- Category`}</Card.Link>
-                    <Button variant="secondary" size="lg" style={{float:"right",marginRight:"26%"}} disabled>
+                    <Card.Link style={{color:"black"}} ><ArrowLeft className="mr-2"/>Project Idea</Card.Link>
+                    <Button variant="secondary" size="lg" style={{float:"right",marginRight:"26%"}} href="/3" disabled={!this.state.text}>
                         Button
                     </Button>
                     </Card.Body>

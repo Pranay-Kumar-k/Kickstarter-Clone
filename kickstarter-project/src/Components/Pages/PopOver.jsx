@@ -40,7 +40,9 @@ const popover = (
                   <Row>Activity</Row>
                 </Col>
               </Row>
-              <Row style={{marginTop:"100px",marginLeft:"20px",marginBottom:"30px"}}>Log out</Row>
+              <Row style={{marginTop:"100px",marginLeft:"20px",marginBottom:"30px"}}>
+                <a href="/login">Log out</a>
+              </Row>
           </Container>
       </Popover.Content>
     </Popover>

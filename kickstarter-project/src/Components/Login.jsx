@@ -50,12 +50,20 @@ const apple = {
   fontSize: "20px",
 };
 
-export class Login extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      email: "",
-      password: "",
+class Login extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            email: "",
+            password: ""
+        };
+    }
+    handleChange = (e) => {
+        const { name, value } = e.target;
+        this.setState({
+            [name]: value
+        });
+
     };
   }
   handleChange = (e) => {
@@ -192,4 +200,6 @@ export class Login extends React.Component {
     );
   }
 }
-Login.contextType = DataContext;
+Login.contextType = DataContext
+export {Login}
+
