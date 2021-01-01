@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import Recommended from "../Recommended";
 import { PublishingCard } from "./PublishingCard";
 
 class Publishing extends Component {
@@ -21,18 +22,34 @@ class Publishing extends Component {
   }
   render() {
     return (
-      <div>
-        <h3>Publishing</h3>
+      <div
+        style={{
+          display: "flex",
+        }}
+      >
         <div>
-          Explore how writers and publishers are using Kickstarter to bring new
-          literature, periodicals, podcasts, and more to life.
+          <h3>Publishing</h3>
+          <div>
+            Explore how writers and publishers are using Kickstarter to bring
+            new literature, periodicals, podcasts, and more to life.
+          </div>
+          <div>FEATURED PROJECT</div>
+          <br />
+          <div>
+            {this.state.data?.map((item) => (
+              <PublishingCard key={item.id} item={item} />
+            ))}
+          </div>
         </div>
-        <div>FEATURED PROJECT</div>
-        <br />
-        <div>
-          {this.state.data?.map((item) => (
-            <PublishingCard key={item.id} item={item} />
-          ))}
+        <div
+          style={{
+            // display: "flex",
+            maxWidth: "480px",
+            margin: "30px 0 0 0px",
+            // border: "1px solid black",
+          }}
+        >
+          <Recommended />
         </div>
       </div>
     );
