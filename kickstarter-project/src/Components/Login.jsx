@@ -8,7 +8,7 @@ import { DataContext } from "../Context/DataContextProvider";
 const inputBox = {
   margin: "10px 30px",
   border: "1px solid grey",
-  height: "20px",
+  height: "30px",
   width: "80%",
   padding: "10px",
 };
@@ -199,6 +199,5 @@ class Login extends React.Component {
     );
   }
 }
-Login.contextType = DataContext
-export {Login}
-
+Login.contextType = DataContext;
+export default Login;

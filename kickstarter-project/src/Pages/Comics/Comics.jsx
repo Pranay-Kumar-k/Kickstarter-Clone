@@ -1,7 +1,51 @@
+// import React, { Component } from "react";
+// import { DataContext } from "../../Context/DataContextProvider";
+// import { ComicsCard } from "./ComicsCard";
+
+// class Comics extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       data: [],
+//     };
+//   }
+//   componentDidMount() {
+//     const { projects } = this.context;
+//     const updateState = projects.filter(
+//       (item) => item.category === "Comics&Illustration"
+//     );
+//     console.log(updateState);
+//     this.setState({
+//       data: updateState,
+//     });
+//   }
+//   render() {
+//     return (
+//       <div style={{margin:"5px 5%"}}>
+//         <h3>Comics & Illustration</h3>
+//         <div>
+//           Explore fantastical worlds and original characters from Kickstarter’s
+//           community of comics creators and illustrators.
+//         </div>
+//         <div>FEATURED PROJECT</div>
+//         <br />
+//         <div>
+//           {this.state.data?.map((item) => (
+//             <ComicsCard key={item.id} item={item} />
+//           ))}
+//         </div>
+//       </div>
+//     );
+//   }
+// }
+// Comics.contextType = DataContext;
+// export { Comics };
+
+
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import Recommended from "../Recommended";
 import { ComicsCard } from "./ComicsCard";
-
 class Comics extends Component {
   constructor(props) {
     super(props);
@@ -21,18 +65,45 @@ class Comics extends Component {
   }
   render() {
     return (
-      <div>
-        <h3>Comics&Illustration</h3>
+      <div
+        style={{
+<<<<<<< HEAD
+          display: "flex",margin:"5px 5%"
+        }}
+      >
         <div>
-          Explore fantastical worlds and original characters from Kickstarter’s
-          community of comics creators and illustrators.
+          <h3>Comics & Illustration</h3>
+          <div>
+            Explore fantastical worlds and original characters from
+            Kickstarter's community of comics creators and illustrators.
+=======
+          display: "flex",
+        }}
+      >
+        <div>
+          <h3>Comics&Illustration</h3>
+          <div>
+            Explore fantastical worlds and original characters from
+            Kickstarter’s community of comics creators and illustrators.
+>>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
+          </div>
+          <div>FEATURED PROJECT</div>
+          <br />
+          <div>
+            {this.state.data?.map((item) => (
+              <ComicsCard key={item.id} item={item} />
+            ))}
+          </div>
         </div>
-        <div>FEATURED PROJECT</div>
-        <br />
-        <div>
-          {this.state.data?.map((item) => (
-            <ComicsCard key={item.id} item={item} />
-          ))}
+        <div
+          style={{
+            // display: "flex",
+            maxWidth: "480px",
+            margin: "30px 0 0 0px",
+            // border: "1px solid black",
+          }}
+        >
+          <Recommended />
         </div>
       </div>
     );

@@ -15,6 +15,16 @@ export default function App() {
       <Header />
       <Routes />
       {/* <UserDashboard /> */}
+<<<<<<< HEAD
+
+      {/* <Header />
+      <Routes /> */}
+      {/* <Page3 /> */}
+      {/* <UserDashboard /> */}
+      {/* <Login/> */}
+
+=======
+>>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
     </div>
   );
 }
