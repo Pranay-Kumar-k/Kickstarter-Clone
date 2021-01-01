@@ -1,6 +1,5 @@
 import React from "react"
 import { Card,Button,Form } from "react-bootstrap"
-import styles from "../Styles/StartPage3.module.css"
 import projects from "../../Context/db.json"
 import styled from "styled-components"
 import { ArrowLeft } from 'react-bootstrap-icons';
@@ -76,7 +75,7 @@ class Page3 extends React.Component {
                     <Card.Body>
                         <Card.Link style={{color:"black"}} ><ArrowLeft className="mr-2"/>Project Idea</Card.Link>
                         <Button variant="secondary" size="lg" style={{float:"right",marginRight:"26%"}} href="/login" disabled={!this.state.country}>
-                            Button
+                            Continue
                         </Button>
                     </Card.Body>
                     <footer className="text-muted" style={{font:"12px Arial",margin:"6% 30%"}}>
