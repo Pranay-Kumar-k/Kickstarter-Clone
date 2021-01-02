@@ -38,7 +38,7 @@ class Home extends Component {
               // border: "1px solid black",
             }}
           >
-          <Recommended />
+            <Recommended />
           </div>
         </div>
       </div>

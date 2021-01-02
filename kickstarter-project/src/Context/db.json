@@ -107,7 +107,7 @@
     "id": "6",
     "title": "BRINDILLE and LOVE: THE MASTIFF by Brrémaud and Bertolucci",
     "summary": "Two new graphic novels by the award-winning team of Frédéric Brrémaud & Federico Bertolucci! Exclusive variant cover by Ben Caldwell!",
-    "avatar": "https://ksr-ugc.imgix.net/assets/031/743/758/068dc77a57ddf452c7d9d882e26dd7eb_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1607983361&auto=format&frame=1&q=92&s=2f17e85998b247bdf5a217ff79d0db17",
+    "avatar": "https://ksr-ugc.imgix.net/assets/031/820/602/beec8ada567ca03dd4abf9043477bb5f_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1608738439&auto=format&frame=1&q=92&s=81d27bc4948ccfb8b6f92e37d35246f1",
 
     "category": "Comics&Illustration",
     "location": "Chicago, IL",
@@ -117,7 +117,6 @@
     "daysToGo": 8,
     "photos": [
       "https://ksr-ugc.imgix.net/assets/031/823/565/7012d88ca749a054ff0081cf1e2a6891_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1608762630&auto=format&frame=1&q=92&s=0bcd5a7d5adcdbf4ecbe3f01e324dd69",
-      "https://ksr-ugc.imgix.net/assets/031/820/602/beec8ada567ca03dd4abf9043477bb5f_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1608738439&auto=format&frame=1&q=92&s=81d27bc4948ccfb8b6f92e37d35246f1",
       "https://ksr-ugc.imgix.net/assets/031/820/640/339bb1996ba1af11739ba001d6b94fed_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1608738665&auto=format&frame=1&q=92&s=a78dad42d4637068f17e4e35f94c6bc9",
       "https://ksr-ugc.imgix.net/assets/031/658/120/4fdd78dc6b68cbcf6ef8d947871681ee_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1607205875&auto=format&frame=1&q=92&s=2cbd98040ec2b5cad8a8ab92073f7c72",
       "https://ksr-ugc.imgix.net/assets/031/820/666/e837af30cd634c885f7d20fa091e9012_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1608738935&auto=format&frame=1&q=92&s=1a8fd72fbf3e5409b9cf66556938417a"
@@ -129,7 +128,7 @@
     "id": "7",
     "title": "Into the territory of Dragons - Artbook",
     "summary": "A 140 page hardcover illustrated book about the mightiest creatures in every fantasy world.",
-    "avatar": "https://ksr-ugc.imgix.net/assets/031/566/649/9050b30900b0f6456e7c27e4aa386080_original.png?ixlib=rb-2.1.0&w=680&fit=max&v=1606483781&auto=format&frame=1&lossless=true&s=7115f140f5768d32c2245f978b93658e",
+    "avatar": "https://ksr-ugc.imgix.net/assets/031/420/852/139f19908fa1de2c0abefaaf6382ecc9_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1605461531&auto=format&frame=1&q=92&s=188f692958e7a55a55fa6ba1f56437c2",
 
     "category": "Comics&Illustration",
     "location": "Madrid, Spain",
@@ -138,9 +137,10 @@
     "backers": 259,
     "daysToGo": 48,
     "photos": [
+      "https://ksr-ugc.imgix.net/assets/031/566/649/9050b30900b0f6456e7c27e4aa386080_original.png?ixlib=rb-2.1.0&w=680&fit=max&v=1606483781&auto=format&frame=1&lossless=true&s=7115f140f5768d32c2245f978b93658e",
       "https://ksr-ugc.imgix.net/assets/031/566/586/94a59961c3ef849deaef27a8816652a6_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1606483383&auto=format&frame=1&q=92&s=edbd07d8ec237355a1626b2e580e2fcd",
       "https://ksr-ugc.imgix.net/assets/031/420/878/af67adc86a5f92a043145931171db0fc_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1605461691&auto=format&frame=1&q=92&s=d43e8309f65530b6b6346a6dbd075c64",
-      "https://ksr-ugc.imgix.net/assets/031/420/852/139f19908fa1de2c0abefaaf6382ecc9_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1605461531&auto=format&frame=1&q=92&s=188f692958e7a55a55fa6ba1f56437c2",
+
       "https://ksr-ugc.imgix.net/assets/031/606/044/2073666275bd3890fa4b727ae3ebb472_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1606823811&auto=format&frame=1&q=92&s=9f747ed7c13dfb731d85ecdb0b94e1b6"
     ],
     "story": "Undoubtedly some of the most powerful creatures in any fantasy universe, dragons also motivate our imagination like no other fairy tale monster. Large, small, good, evil, intelligent, bestial, noble, chaotic, peaceful, fierce... There are no limits when designing a dragon for our fantasy universe.",
@@ -279,33 +279,5 @@
     ],
     "story": "Have you ever imagined visiting the past with full knowledge of modern information and technology? If you told people from the Middle Ages or Ancient Egypt about a telephone, a car, or electricity, they would take you for a deity or a superhero. But do you actually know how these things work?",
     "by": "Timur"
-  },
-  {
-    "countries":["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla",
-      "Antigua &amp; Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan",
-      "Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda",
-      "Bhutan","Bolivia","Bosnia &amp; Herzegovina","Botswana","Brazil","British Virgin Islands",
-      "Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Cape Verde","Cayman Islands",
-      "Chad","Chile","China","Colombia","Congo","Cook Islands","Costa Rica","Cote D Ivoire","Croatia",
-      "Cruise Ship","Cuba","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic",
-      "Ecuador","Egypt","El Salvador","Equatorial Guinea","Estonia","Ethiopia","Falkland Islands","Faroe Islands",
-      "Fiji","Finland","France","French Polynesia","French West Indies","Gabon","Gambia","Georgia","Germany",
-      "Ghana","Gibraltar","Greece","Greenland","Grenada","Guam","Guatemala","Guernsey","Guinea",
-      "Guinea Bissau","Guyana","Haiti","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia",
-      "Iran","Iraq","Ireland","Isle of Man","Israel","Italy","Jamaica","Japan","Jersey","Jordan",
-      "Kazakhstan","Kenya","Kuwait","Kyrgyz Republic","Laos","Latvia","Lebanon","Lesotho","Liberia",
-      "Libya","Liechtenstein","Lithuania","Luxembourg","Macau","Macedonia","Madagascar","Malawi","Malaysia",
-      "Maldives","Mali","Malta","Mauritania","Mauritius","Mexico","Moldova","Monaco","Mongolia","Montenegro",
-      "Montserrat","Morocco","Mozambique","Namibia","Nepal","Netherlands","Netherlands Antilles","New Caledonia",
-      "New Zealand","Nicaragua","Niger","Nigeria","Norway","Oman","Pakistan","Palestine","Panama","Papua New Guinea",
-      "Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Reunion","Romania",
-      "Russia","Rwanda","Saint Pierre &amp; Miquelon","Samoa","San Marino","Satellite","Saudi Arabia",
-      "Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","South Africa",
-      "South Korea","Spain","Sri Lanka","St Kitts &amp; Nevis","St Lucia","St Vincent","St. Lucia","Sudan",
-      "Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand",
-      "Timor L'Este","Togo","Tonga","Trinidad &amp; Tobago","Tunisia","Turkey","Turkmenistan","Turks &amp; Caicos",
-      "Uganda","Ukraine","United Arab Emirates","United Kingdom","Uruguay","Uzbekistan","Venezuela","Vietnam",
-      "Virgin Islands (US)","Yemen","Zambia","Zimbabwe"]
   }
-  
 ]
