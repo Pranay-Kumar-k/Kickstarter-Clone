@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
 import Recommended from "../Recommended";
-import { ArtsCard } from "./ArtsCard";
-
+// import { ArtsCard } from "./ArtsCard";
+import { CategoryCard } from "../CategoryCard";
 class Arts extends Component {
   constructor(props) {
     super(props);
@@ -18,13 +18,16 @@ class Arts extends Component {
       data: updateState,
     });
   }
+
   render() {
+    console.log(this.props);
     return (
       <div
         style={{
           display: "flex",
           //  justifyContent: "space-around" ,
           flexDirection: "row",
+          margin: "5px 5%",
         }}
       >
         <div>
@@ -37,7 +40,7 @@ class Arts extends Component {
           <br />
           <div>
             {this.state.data?.map((item) => (
-              <ArtsCard key={item.id} item={item} />
+              <CategoryCard key={item.id} item={item} {...this.props} />
             ))}
           </div>
         </div>
@@ -57,3 +60,19 @@ class Arts extends Component {
 }
 Arts.contextType = DataContext;
 export { Arts };
+
+// export const Arts = (props) => {
+//   return (
+//     <DataContext.Consumer>
+//       {({ projects }) => {
+//         return (
+//           <Container>
+//             {projects()?.map((prod) => (
+//               <ProductItem key={prod.id} item={prod} {...props} />
+//             ))}
+//           </Container>
+//         );
+//       }}
+//     </DataContext.Consumer>
+//   );
+// };

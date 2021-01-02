@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import { CategoryCard } from "../CategoryCard";
 import Recommended from "../Recommended";
-import { PublishingCard } from "./PublishingCard";
 
 class Publishing extends Component {
   constructor(props) {
@@ -21,10 +21,12 @@ class Publishing extends Component {
     });
   }
   render() {
+    console.log(this.props);
     return (
       <div
         style={{
           display: "flex",
+          margin: "5px 5%",
         }}
       >
         <div>
@@ -37,7 +39,7 @@ class Publishing extends Component {
           <br />
           <div>
             {this.state.data?.map((item) => (
-              <PublishingCard key={item.id} item={item} />
+              <CategoryCard key={item.id} item={item} {...this.props} />
             ))}
           </div>
         </div>

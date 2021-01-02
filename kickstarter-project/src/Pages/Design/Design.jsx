@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import { CategoryCard } from "../CategoryCard";
 import Recommended from "../Recommended";
-import { DesignCard } from "./DesignCard";
 
 class Design extends Component {
   constructor(props) {
@@ -25,10 +25,11 @@ class Design extends Component {
       <div
         style={{
           display: "flex",
+          margin: "5px 5%",
         }}
       >
         <div>
-          <h3>Design&Tech</h3>
+          <h3>Design & Tech</h3>
           <div>
             From fine design to innovative tech, discover projects from creators
             working to build a more beautiful future.
@@ -37,7 +38,7 @@ class Design extends Component {
           <br />
           <div>
             {this.state.data?.map((item) => (
-              <DesignCard key={item.id} item={item} />
+              <CategoryCard key={item.id} item={item} {...this.props} />
             ))}
           </div>
         </div>

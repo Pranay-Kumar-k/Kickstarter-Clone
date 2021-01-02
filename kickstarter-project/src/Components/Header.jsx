@@ -1,3 +1,4 @@
+// import { Popover } from "bootstrap";
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { DataContext } from "../Context/DataContextProvider";
@@ -58,25 +59,33 @@ class Header extends Component {
             </NavLink>
           </div>
         </div>
-        <div style={{ marginTop: "20px" }}>
-          <input
-            style={{ border: "none", width: "50px" }}
-            type="text"
-            placeholder="Search"
-          />
-          <NavLink
-            exact
-            style={{
-              padding: 10,
-              color: "black",
-              textDecoration: "none",
-              marginRight: "50px",
-            }}
-            activeStyle={{ fontWeight: "bold", color: "seagreen" }}
-            to="/login"
-          >
-            <div onClick={handleLogOut}>{isAuth ? "Log out" : "Log in"}</div>
-          </NavLink>
+        <div
+          style={{
+            marginTop: "20px",
+          }}
+        >
+          <div>
+            <input
+              style={{ border: "none", width: "50px", marginRight: "50px" }}
+              type="text"
+              placeholder="Search"
+            />
+          </div>
+          <div>
+            <NavLink
+              exact
+              style={{
+                padding: 10,
+                color: "black",
+                textDecoration: "none",
+                marginRight: "50px",
+              }}
+              activeStyle={{ fontWeight: "bold", color: "seagreen" }}
+              to="/login"
+            >
+              <div onClick={handleLogOut}>{isAuth ? "Log out" : "Log in"}</div>
+            </NavLink>
+          </div>
         </div>
       </div>
     );

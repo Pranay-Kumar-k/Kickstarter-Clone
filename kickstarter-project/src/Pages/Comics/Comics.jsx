@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
 import Recommended from "../Recommended";
-import { ComicsCard } from "./ComicsCard";
-
+// import { ComicsCard } from "./ComicsCard";
+import { CategoryCard } from "../CategoryCard";
 class Comics extends Component {
   constructor(props) {
     super(props);
@@ -25,19 +25,20 @@ class Comics extends Component {
       <div
         style={{
           display: "flex",
+          margin: "5px 5%",
         }}
       >
         <div>
-          <h3>Comics&Illustration</h3>
+          <h3>Comics & Illustration</h3>
           <div>
             Explore fantastical worlds and original characters from
-            Kickstarter’s community of comics creators and illustrators.
+            Kickstarter's community of comics creators and illustrators.
           </div>
           <div>FEATURED PROJECT</div>
           <br />
           <div>
             {this.state.data?.map((item) => (
-              <ComicsCard key={item.id} item={item} />
+              <CategoryCard key={item.id} item={item} {...this.props} />
             ))}
           </div>
         </div>

@@ -2,14 +2,13 @@ import React from "react";
 import { Redirect } from "react-router-dom";
 // import styles from "./Login.module.css"
 
-
 import { DataContext } from "../Context/DataContextProvider";
 
 const inputBox = {
   margin: "10px 30px",
   border: "1px solid grey",
-  height: "20px",
-  width: "80%",
+  height: "35px",
+  width: "85%",
   padding: "10px",
 };
 const box = {
@@ -50,20 +49,12 @@ const apple = {
   fontSize: "20px",
 };
 
-class Login extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            email: "",
-            password: ""
-        };
-    }
-    handleChange = (e) => {
-        const { name, value } = e.target;
-        this.setState({
-            [name]: value
-        });
-
+export class Login extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      email: "",
+      password: "",
     };
   }
   handleChange = (e) => {
@@ -83,7 +74,7 @@ class Login extends React.Component {
     const { email, password } = this.state;
     const { isAuth, isLoading, error } = this.context;
     return isLoading ? (
-      <h2>..Loading</h2>
+      <h2>...</h2>
     ) : !isAuth ? (
       <div
         style={{
@@ -134,10 +125,10 @@ class Login extends React.Component {
           <button style={btn} onClick={this.handleClick}>
             Log in
           </button>
-          {error &&
-            alert("The email address and password you entered do not match.")
-            // <h5 style={{ textAlign: "center" }}>Invalid credentials</h5>
-          }
+          <div style={{ textAlign: "center" }}>
+            {" "}
+            {error && <h5>Invalid credentials</h5>}{" "}
+          </div>
           {/* <input type="checkbox" value="Remember me" ckecked /> */}
           <p style={{ textAlign: "center" }}>or</p>
           <button style={apple} onClick={this.handleClick}>
@@ -195,11 +186,9 @@ class Login extends React.Component {
         </div>
       </div>
     ) : (
-      //   <Redirect to="/Pages/Dashboard" />
+      // <Redirect to="/Pages/Dashboard" />
       <Redirect to="/home" />
     );
   }
 }
-Login.contextType = DataContext
-export {Login}
-
+Login.contextType = DataContext;

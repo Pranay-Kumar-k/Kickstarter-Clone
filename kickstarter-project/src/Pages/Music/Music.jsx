@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import { CategoryCard } from "../CategoryCard";
 import Recommended from "../Recommended";
-import { MusicCard } from "./MusicCard";
 
 class Music extends Component {
   constructor(props) {
@@ -19,10 +19,12 @@ class Music extends Component {
     });
   }
   render() {
+    console.log(this.props);
     return (
       <div
         style={{
           display: "flex",
+          margin: "5px 5%",
         }}
       >
         <div>
@@ -35,7 +37,7 @@ class Music extends Component {
           <br />
           <div>
             {this.state.data?.map((item) => (
-              <MusicCard key={item.id} item={item} />
+              <CategoryCard key={item.id} item={item} {...this.props} />
             ))}
           </div>
         </div>
