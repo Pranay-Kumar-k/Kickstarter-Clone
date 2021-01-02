@@ -7,8 +7,11 @@ import { DataContext } from "../Context/DataContextProvider";
 const inputBox = {
   margin: "10px 30px",
   border: "1px solid grey",
+
   height: "35px",
   width: "85%",
+
+  
   padding: "10px",
 };
 const box = {
@@ -56,7 +59,6 @@ export class Login extends React.Component {
       email: "",
       password: "",
     };
-  }
   handleChange = (e) => {
     const { name, value } = e.target;
     this.setState({
@@ -186,9 +188,14 @@ export class Login extends React.Component {
         </div>
       </div>
     ) : (
+
       // <Redirect to="/Pages/Dashboard" />
       <Redirect to="/home" />
+
     );
   }
 }
 Login.contextType = DataContext;
+
+
+

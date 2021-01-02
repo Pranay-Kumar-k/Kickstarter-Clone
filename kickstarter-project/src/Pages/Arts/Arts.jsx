@@ -61,18 +61,3 @@ class Arts extends Component {
 Arts.contextType = DataContext;
 export { Arts };
 
-// export const Arts = (props) => {
-//   return (
-//     <DataContext.Consumer>
-//       {({ projects }) => {
-//         return (
-//           <Container>
-//             {projects()?.map((prod) => (
-//               <ProductItem key={prod.id} item={prod} {...props} />
-//             ))}
-//           </Container>
-//         );
-//       }}
-//     </DataContext.Consumer>
-//   );
-// };

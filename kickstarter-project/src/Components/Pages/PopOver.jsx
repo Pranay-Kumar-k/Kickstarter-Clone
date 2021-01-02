@@ -1,5 +1,4 @@
 import React from "react"
-import styles from "../Styles/PopOver.module.css"
 import {Popover,OverlayTrigger, Container, Row, Col, Button } from "react-bootstrap"
 
 const popover = (
