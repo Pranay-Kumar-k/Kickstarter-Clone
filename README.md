@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <img src="https://www.online-tech-tips.com/wp-content/uploads/2019/10/kickstarter.png" alt="img" width="160">
+  <img src="https://www.online-tech-tips.com/wp-content/uploads/2019/10/kickstarter.png" alt="img" width="250">
 </h1>
 
 A clone of Kickstarter - crowdfunding web application where a user can post his idea and get funding from different individuals
 
 ## Screenshots
-<img src="https://github.com/pranaykumar999/Kickstarter-Clone/blob/Pranay/Images/landing_page.png"alt="img" />
+<img src="https://github.com/pranaykumar999/Kickstarter-Clone/blob/Pranay/Images/landing_page.png" alt="img" />
 <img src="https://github.com/pranaykumar999/Kickstarter-Clone/blob/Pranay/Images/login_page.png" alt="img" />
 <img src="https://github.com/pranaykumar999/Kickstarter-Clone/blob/Pranay/Images/start_a_project.png" alt="img" />
 
@@ -43,6 +43,6 @@ npm start
 * User has to login before submitting his Idea
 * Logout
 
-## Need Features 
+## Features Needed
 * Additional options for user on dashboard
 * storing the data

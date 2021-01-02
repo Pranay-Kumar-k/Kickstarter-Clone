@@ -25,7 +25,7 @@
   margin-top: 100px;
   font-size: 18px;
   padding: 50px;
-  font-family:"Cooper Light", Georgia, Times, "Times New Roman", serif;
+  /* font-family: "Cooper Light", Georgia, Times, "Times New Roman", serif; */
 }
 .blue > div {
   text-align: justify;
@@ -33,16 +33,16 @@
   margin: 50px;
   margin-left: 200px;
   width: 800px;
-  font-size: 40px;
-  font-family:"Cooper Light", Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  /* font-family: "Cooper Light", Georgia, Times, "Times New Roman", serif; */
 }
 .middle {
-  font-size: 30px;
+  font-size: 20px;
   width: 900px;
   margin: 5% 15%;
   text-align: start;
   color: black;
-  font-family:"Cooper Light", Georgia, Times, "Times New Roman", serif;
+  /* font-family: "Cooper Light", Georgia, Times, "Times New Roman", serif; */
 }
 .video {
   height: 600px;
@@ -53,6 +53,6 @@
 .middle > button {
   font-size: 18px;
 }
-div {
+/* div {
   font-size: 18px;
-}
+} */

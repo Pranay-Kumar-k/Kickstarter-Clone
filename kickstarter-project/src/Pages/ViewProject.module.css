@@ -1,24 +1,17 @@
-.header1 {
+.header {
   text-align: center;
   font-weight: 400;
   padding-top: 30px;
 }
-.header2 {
-  text-align: center;
-  font-weight: 400;
-  padding-bottom: 30px;
-}
-.box {
+
+/* .box {
   height: 600px;
   background-color: whitesmoke;
-  /* width: 85%; */
-  /* border: 1px solid red; */
   margin: auto;
 
-  /* float: left; */
-}
+} */
 .gap {
-  margin: 14px;
+  margin: 14px 20px;
 }
 .avatar {
   height: 400px;
@@ -26,12 +19,12 @@
 }
 .right {
   display: flex;
-  float: right;
+  /* float: right; */
   margin-right: 120px;
   flex-direction: column;
 }
 .line {
-  width: 260px;
+  width: 80%;
   height: 5px;
   background-color: seagreen;
 }
@@ -47,13 +40,16 @@
 }
 .btn1 {
   color: white;
-  width: 250px;
-  height: 50px;
+  width: 84%;
+  height: 45px;
   background-color: seagreen;
+  border: 1px solid seagreen;
 }
 .btn2 {
-  width: 90px;
-  height: 50px;
+  width: 50%;
+  height: 45px;
+  background-color: white;
+  border: 1px solid grey;
 }
 .tag {
   display: flex;
@@ -62,12 +58,12 @@
   margin-left: 80px;
 }
 .nav {
-  height: 35px;
-  padding: 15px;
+  height: 45px;
   justify-content: space-around;
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
 }
 .storyBox {
   margin: auto;

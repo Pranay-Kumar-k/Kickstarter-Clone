@@ -1,51 +1,8 @@
-// import React, { Component } from "react";
-// import { DataContext } from "../../Context/DataContextProvider";
-// import { DesignCard } from "./DesignCard";
-
-// class Design extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       data: [],
-//     };
-//   }
-//   componentDidMount() {
-//     const { projects } = this.context;
-//     const updateState = projects.filter(
-//       (item) => item.category === "Design&Tech"
-//     );
-//     console.log(updateState);
-//     this.setState({
-//       data: updateState,
-//     });
-//   }
-//   render() {
-//     return (
-//       <div style={{margin:"5px 5%"}}>
-//         <h3>Design&Tech</h3>
-//         <div>
-//           From fine design to innovative tech, discover projects from creators
-//           working to build a more beautiful future.
-//         </div>
-//         <div>FEATURED PROJECT</div>
-//         <br />
-//         <div>
-//           {this.state.data?.map((item) => (
-//             <DesignCard key={item.id} item={item} />
-//           ))}
-//         </div>
-//       </div>
-//     );
-//   }
-// }
-// Design.contextType = DataContext;
-// export { Design };
-
-
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import { CategoryCard } from "../CategoryCard";
 import Recommended from "../Recommended";
-import { DesignCard } from "./DesignCard";
+
 class Design extends Component {
   constructor(props) {
     super(props);
@@ -67,7 +24,8 @@ class Design extends Component {
     return (
       <div
         style={{
-          display: "flex",margin:"5px 5%"
+          display: "flex",
+          margin: "5px 5%",
         }}
       >
         <div>
@@ -80,7 +38,7 @@ class Design extends Component {
           <br />
           <div>
             {this.state.data?.map((item) => (
-              <DesignCard key={item.id} item={item} />
+              <CategoryCard key={item.id} item={item} {...this.props} />
             ))}
           </div>
         </div>

@@ -33,7 +33,7 @@ const links = [
   {
     to: "/publishing",
     title: "Publishing",
-  }
+  },
 ];
 
 function Navbar() {

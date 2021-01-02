@@ -5,9 +5,14 @@ export const Pagination = ({ currentPage, totalPages, handlePage }) => {
   // console.log(currentPage, totalPages);
   return (
     <>
-      <div style={{textAlign:"center"}}>
+      <div style={{ textAlign: "right" }}>
         {btnArray.map((btn) => (
-          <button style={{margin:"5px"}} onClick={() => handlePage(btn)}>{btn}</button>
+          <button
+            style={{ margin: "5px", border: "none" }}
+            onClick={() => handlePage(btn)}
+          >
+            {btn}
+          </button>
         ))}
       </div>
     </>
