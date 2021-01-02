@@ -1,51 +1,8 @@
-// import React, { Component } from "react";
-// import { DataContext } from "../../Context/DataContextProvider";
-// import { PublishingCard } from "./PublishingCard";
-
-// class Publishing extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       data: [],
-//     };
-//   }
-//   componentDidMount() {
-//     const { projects } = this.context;
-//     const updateState = projects.filter(
-//       (item) => item.category === "Publishing"
-//     );
-//     console.log(updateState);
-//     this.setState({
-//       data: updateState,
-//     });
-//   }
-//   render() {
-//     return (
-//       <div style={{margin:"5px 5%"}}>
-//         <h3>Publishing</h3>
-//         <div>
-//           Explore how writers and publishers are using Kickstarter to bring new
-//           literature, periodicals, podcasts, and more to life.
-//         </div>
-//         <div>FEATURED PROJECT</div>
-//         <br />
-//         <div>
-//           {this.state.data?.map((item) => (
-//             <PublishingCard key={item.id} item={item} />
-//           ))}
-//         </div>
-//       </div>
-//     );
-//   }
-// }
-// Publishing.contextType = DataContext;
-// export { Publishing };
-
-
 import React, { Component } from "react";
 import { DataContext } from "../../Context/DataContextProvider";
+import { CategoryCard } from "../CategoryCard";
 import Recommended from "../Recommended";
-import { PublishingCard } from "./PublishingCard";
+
 class Publishing extends Component {
   constructor(props) {
     super(props);
@@ -64,14 +21,12 @@ class Publishing extends Component {
     });
   }
   render() {
+    console.log(this.props);
     return (
       <div
         style={{
-<<<<<<< HEAD
-          display: "flex",margin:"5px 5%"
-=======
           display: "flex",
->>>>>>> df323192d1688bb90b2c75dea0aadd58a94efed2
+          margin: "5px 5%",
         }}
       >
         <div>
@@ -84,7 +39,7 @@ class Publishing extends Component {
           <br />
           <div>
             {this.state.data?.map((item) => (
-              <PublishingCard key={item.id} item={item} />
+              <CategoryCard key={item.id} item={item} {...this.props} />
             ))}
           </div>
         </div>
