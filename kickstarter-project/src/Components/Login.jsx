@@ -187,11 +187,8 @@ export class Login extends React.Component {
       </div>
     ) : (
       // <Redirect to="/Pages/Dashboard" />
-      <Redirect to="/home" />
+      <Redirect to="/projectCreated" />
     );
   }
 }
 Login.contextType = DataContext;
-
-
-

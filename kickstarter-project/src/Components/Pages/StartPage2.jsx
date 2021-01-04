@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Dropdown, Button, footer, Form, Nav } from "react-bootstrap";
 import { ArrowLeft } from "react-bootstrap-icons";
-
+import { NavLink } from "react-router-dom";
 class Page2 extends React.Component {
   constructor(props) {
     super(props);
@@ -49,15 +49,16 @@ class Page2 extends React.Component {
               <ArrowLeft className="mr-2" />
               Project Idea
             </Card.Link>
-            <Button
-              variant="secondary"
-              size="lg"
-              style={{ float: "right", marginRight: "26%" }}
-              href="/start/startAProjectPage3"
-              disabled={!this.state.text}
-            >
-              Next:Location
-            </Button>
+            <NavLink to="/start/startAProjectPage3">
+              <Button
+                variant="secondary"
+                size="lg"
+                style={{ float: "right", marginRight: "26%" }}
+                disabled={!this.state.text}
+              >
+                Next: location
+              </Button>
+            </NavLink>
           </Card.Body>
           <footer
             className="text-muted"

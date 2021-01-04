@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button, footer, Form } from "react-bootstrap";
 import styled from "styled-components";
 import { ArrowLeft } from "react-bootstrap-icons";
-
+import { NavLink } from "react-router-dom";
 const Select = styled.select`
   width: 50%;
   padding: 10px;
@@ -68,15 +68,17 @@ class Page1 extends React.Component {
                 );
               })}
             </Select>
-            <Button
-              href="/start/startAProjectPage2"
-              variant="secondary"
-              size="lg"
-              style={{ float: "right", marginTop: "5%", marginRight: "26%" }}
-              disabled={!this.state.category}
-            >
-              Next:Project idea
-            </Button>
+
+            <NavLink to="/start/startAProjectPage2">
+              <Button
+                variant="secondary"
+                size="lg"
+                style={{ float: "right", marginTop: "5%", marginRight: "26%" }}
+                disabled={!this.state.category}
+              >
+                Next:Project idea
+              </Button>
+            </NavLink>
           </Card.Body>
 
           <footer

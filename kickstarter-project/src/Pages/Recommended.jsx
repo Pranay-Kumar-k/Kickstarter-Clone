@@ -25,7 +25,7 @@ class Recommended extends Component {
         <div>
           {" "}
           {projects
-            .map((item) => <RecommendedCard item={item} />)
+            .map((item) => <RecommendedCard item={item} {...this.props} />)
             .filter(
               (_, index) =>
                 index >= (currentPage - 1) * perPage &&

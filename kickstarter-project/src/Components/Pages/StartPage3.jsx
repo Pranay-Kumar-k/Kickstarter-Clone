@@ -5,6 +5,7 @@ import projects from "../../Context/db.json";
 import styled from "styled-components";
 import { ArrowLeft } from "react-bootstrap-icons";
 import countries from "../../Context/data.json";
+import { NavLink } from "react-router-dom";
 const Select = styled.select`
   width: 50%;
   padding: 10px;
@@ -69,7 +70,7 @@ class Page3 extends React.Component {
           <Form style={{ width: "50%", textAlign: "start", marginLeft: "28%" }}>
             <div>
               <input type="checkbox" />
-              <label htmlFor="checkbox">Iam 18 years old.</label>
+              <label htmlFor="checkbox">I am 18 years old.</label>
             </div>
             <div>
               <input type="checkbox" />
@@ -95,25 +96,27 @@ class Page3 extends React.Component {
               Project Idea
             </Card.Link>
             {isAuth ? (
-              <Button
-                variant="secondary"
-                size="lg"
-                style={{ float: "right", marginRight: "26%" }}
-                href="/projectCreated"
-                // disabled={!this.state.country}
-              >
-                Continue
-              </Button>
+              <NavLink to="/projectCreated">
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  style={{ float: "right", marginRight: "26%" }}
+                  disabled={!this.state.country}
+                >
+                  Continue
+                </Button>
+              </NavLink>
             ) : (
-              <Button
-                variant="secondary"
-                size="lg"
-                style={{ float: "right", marginRight: "26%" }}
-                href="/login"
-                // disabled={!this.state.country}
-              >
-                Continue
-              </Button>
+              <NavLink to="/login">
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  style={{ float: "right", marginRight: "26%" }}
+                  disabled={!this.state.country}
+                >
+                  Continue
+                </Button>
+              </NavLink>
             )}
           </Card.Body>
           <footer
