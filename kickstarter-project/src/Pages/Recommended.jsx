@@ -21,7 +21,7 @@ class Recommended extends Component {
     const totalPages = Math.ceil(projects.length / perPage);
     return (
       <div>
-        <div>Recommended for you</div>
+        <h6 style={{marginTop:"20px"}}>RECOMMENDED FOR YOU</h6>
         <div>
           {" "}
           {projects
