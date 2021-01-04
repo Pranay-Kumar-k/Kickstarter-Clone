@@ -48,7 +48,7 @@ class Games extends Component {
             // border: "1px solid black",
           }}
         >
-          <Recommended />
+          <Recommended {...this.props} />
         </div>
       </div>
     );
