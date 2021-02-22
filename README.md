@@ -7,7 +7,7 @@
  
  ## Demo
  
- Checkout the demo of application ![Kickstarter](https://kickstarter-clone.netlify.app/home)
+ Checkout the demo of application <a href="https://kickstarter-clone.netlify.app/home">Kickstarter</a>
  
 ## Screenshots
 <img src="https://github.com/pranaykumar999/Kickstarter-Clone/blob/Pranay/Images/landing_page.png" alt="img" />
