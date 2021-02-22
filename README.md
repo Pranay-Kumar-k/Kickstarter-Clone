@@ -5,6 +5,10 @@
 
  Kickstarter maintains a global crowdfunding platform focused on creativity. The company's stated mission is to help bring creative projects to life
  
+ ## Demo
+ 
+ Checkout the demo of application ![Kickstarter](https://kickstarter-clone.netlify.app/home)
+ 
 ## Screenshots
 <img src="https://github.com/pranaykumar999/Kickstarter-Clone/blob/Pranay/Images/landing_page.png" alt="img" />
 <img src="https://github.com/pranaykumar999/Kickstarter-Clone/blob/Pranay/Images/login_page.png" alt="img" />
